@@ -18,7 +18,7 @@ export async function GET(request: Request) {
       const usuario = cols[6].toUpperCase();
       const pidNum = parseInt(cols[1], 10);
 
-      // Heurística de Windows: PID bajo (< 1500) o usuarios del sistema = Prioridad 1 (No Expulsivo)
+      //PID bajo (< 1500) o usuarios del sistema = Prioridad 1 (No Expulsivo)
       const esSO = pidNum < 1500 || usuario.includes('SYSTEM') || usuario.includes('AUTHORITY') || usuario.includes('WINDOW MANAGER');
       const prioridad = esSO ? 1 : 0;
 
