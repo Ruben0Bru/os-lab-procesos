@@ -87,7 +87,7 @@ export default function DashboardSimulador() {
                 disabled={simulando} 
                 className="mb-6 px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded shadow-lg disabled:opacity-50 transition-all"
             >
-                {simulando ? 'Simulando "Under the hood"...' : 'Iniciar Simulación'}
+                {simulando ? 'Simulando...' : 'Iniciar Simulación'}
             </button>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
