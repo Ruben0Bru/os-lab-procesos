@@ -31,20 +31,20 @@ Esta aplicación **debe ejecutarse estrictamente en un entorno local** (Localhos
 **Prerrequisitos:** Node.js (v18+) y un entorno Windows (para la extracción del Kernel).
 
 1. Clonar el repositorio:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/TuUsuario/os-process-simulator-rr.git
    cd os-process-simulator-rr
-   \`\`\`
+   ```
 
 2. Instalar las dependencias (incluye Recharts para la visualización):
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Levantar el motor y el servidor local:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. Abrir el navegador en `http://localhost:3000`.
 
