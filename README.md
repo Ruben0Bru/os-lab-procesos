@@ -32,8 +32,8 @@ Esta aplicación **debe ejecutarse estrictamente en un entorno local** (Localhos
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/TuUsuario/os-process-simulator-rr.git
-   cd os-process-simulator-rr
+   git clone https://github.com/Ruben0Bru/os-lab-procesos
+   cd os-lab-procesos
    ```
 
 2. Instalar las dependencias (incluye Recharts para la visualización):
